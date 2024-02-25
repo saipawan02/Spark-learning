@@ -1,0 +1,11 @@
+Why do we need bigdata processing?
+    - for eg we have 32GB ram and have a dataset of 128GB, so for this we cannot load all the data in the memoery and perorm operations.
+        to solve this we need big data frameworks to perform operation on distribute systems.
+
+What is map-reduce?
+    - MapReduce is a programming model used for efficient processing in parallel over large data-sets in a distributed manner. 
+    The data is first split and then combined to produce the final result.
+
+What is a DataFrame?
+    - DataFrame are a type of datastructures. it's actually a class in pandas. 
+    object of that class stores the data and that data can be manupulated in various ways.
