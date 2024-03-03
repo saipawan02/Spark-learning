@@ -9,3 +9,21 @@ What is map-reduce?
 What is a DataFrame?
     - DataFrame are a type of datastructures. it's actually a class in pandas. 
     object of that class stores the data and that data can be manupulated in various ways.
+
+What is the difference between sparkSession vs sparkContext 
+
+    sparkContext:
+        - Reperesnts the connection to spark cluster
+        - Coordinates task execution accross the cluster
+        - entry point to erlier versions of spark
+        - Used to create RDD(Resiliant distributed Datasets) and perform transfromations and define actions on them.
+    
+    sparkSession
+        - introduced in spark 2.0
+        - unified entry point to interact with spark
+        - combines the functionalities of sparkContext, sparkSQL, HiveContext, and streamingContext
+        - support multiple programming languages
+        - Extends the sparkContext functionalities and also provide abstraction like DataFrame and Datasets
+        - Provide structured quering using SQL and DataFrame API
+        - provide data Source API's, machine Learning algo and streaming capabilities.
+
